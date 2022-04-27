@@ -1,0 +1,271 @@
+h1,
+h3,
+h4,
+li,
+a {
+  font-family: "Roboto Condensed", sans-serif;
+  margin: auto;
+  font-size: 100%;
+  font-weight: normal;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.top-menu {
+  background: #ffffff;
+  box-shadow: 3px 0 7px rgba(0, 0, 0, 0.3);
+  padding: 0px;
+  position: sticky;
+  top: 0px;
+  height: 84px;
+  left: 10px;
+}
+.logo-menu {
+  max-width: 1110px;
+  margin: auto;
+  align-items: center;
+  height: 90px;
+}
+
+.navbar-logo {
+  display: inline-block;
+  margin-top: 5px;
+}
+.menu-main {
+  list-style: none;
+  height: 84px;
+  margin-top: 0px;
+  margin-right: 10;
+  padding: 0;
+  float: right;
+  display: flex;
+}
+.menu-main a,
+.menu-main li {
+  text-decoration: none;
+  display: block;
+  position: relative;
+  line-height: 28px;
+  font-size: 24px;
+  color: #112d42;
+  transition: 0.3s linear;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+body {
+  margin: 0;
+}
+
+h2,
+p,
+ul {
+  font-family: 'Roboto Condensed', sans-serif;
+  max-width: 1100px;
+  margin: auto;
+}
+
+
+
+eader {
+  padding-top: 160px;
+  padding-bottom: 160px;
+  background-image: url(https://northlands.ru/data/media/12/008592d480f6c3823e6c21e70252752c.jpg);
+  box-shadow: 0 0 0 128px rgba(0, 0, 0, 0.33) inset;
+  height: 403px;
+  background-size: cover;
+  background-position: center center;
+}
+
+ead-container {
+  box-sizing: border-box;
+  max-width: 1219px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+
+.header {
+  padding: auto;  
+  background-color: #eee;
+  background-image: url(https://northlands.ru/data/media/12/008592d480f6c3823e6c21e70252752c.jpg);
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.header-title {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 72px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  color: white;
+  text-align: center;
+  margin: auto
+}
+
+.overlay {
+  width: 100%;
+  height: 400px;
+  background-color: rgba(0, 0, 0, .5);
+  display: flex;
+}
+
+
+h2 {
+  font-family: 'Roboto Condensed', sans-serif;  
+  margin: auto;
+  font-size: 100%;
+  font-weight: normal;
+  padding: 0;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 75px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #1d486a;
+}
+
+.anchor {
+  height: 134px;
+  margin-top: -134px;
+}
+.text_about {
+  background: #eeeeee;
+  font-family: 'Roboto Condensed', sans-serif;  font-size: 32px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+.intro {
+  font-family: 'Roboto Condensed', sans-serif;  font-size: 32px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+p {
+  font-family: 'Roboto Condensed', sans-serif;  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  color: #000000;
+  margin-top: 40px;
+}
+.letter {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+}
+.logo {
+  width: 200px;
+  float: left;
+  margin-right: 40px;
+}
+
+.container {
+  box-sizing: border-box;
+  max-width: 1219px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+.hero {
+  padding-top: 128px;
+  padding-bottom: 128px;
+  background-image: url(https://forumupload.ru/uploads/000f/90/0b/3/625619.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.hero-message {
+  font-family: 'Roboto Condensed', sans-serif;  
+  font-style: italic;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #fff;
+}
+
+.content {
+  font-family: 'Roboto Condensed', sans-serif;
+  background: #eeeeee;
+  font-size: 0;
+  width: 100%;
+  padding-top: 58px;
+  padding-bottom: 54px;
+}
+.cards {
+  max-width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card {
+  width: 350px;
+  height: 283px;
+  margin-right: 0px;
+  margin-bottom: 30px;
+  padding: 45px 45px 70px;
+  display: inline-block;
+}
+
+.card-title {
+  font-family: 'Roboto Condensed', sans-serif;  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #3dd2cc;
+}
+.card-text {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 0;
+}
+.card-image {
+  width: 168px;
+  margin-bottom: 12px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+.footer {
+  height: 120px;
+  background-color: #333333;
+  display: flex;
+}
+.footer-author {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 540px;
+  color: white;
+  margin: auto;
+}
